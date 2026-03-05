@@ -1,12 +1,11 @@
 # 🧠 Advanced Programming Projects
 
-This repository contains two academic projects developed for the **Advanced Programming course**.
-Both projects focus on **concurrent and distributed programming concepts**, using different technologies and paradigms.
+This repository contains an academic projects developed for the **Advanced Programming course**.
 
 👨‍💻 Developed by:
 
-* **David Lavado**
-* **Rubén Hernández**
+* **David Lavado González**
+* **Rubén Hernández Molina**
 
 ---
 
@@ -15,11 +14,10 @@ Both projects focus on **concurrent and distributed programming concepts**, usin
 This repository contains the following projects:
 
 1️⃣ **Multi-Agent Travel Reservation System (JADE)**
-2️⃣ **Nuclear Reactor Simulation (Ada)**
 
 ---
 
-# 🤖 Project 1 — Multi-Agent Travel Reservation System
+# Multi-Agent Travel Reservation System
 
 This project implements a **multi-agent system using the JADE platform**, simulating the behavior of a travel agency similar to *El Corte Inglés*.
 
@@ -66,50 +64,10 @@ Example cities included:
 * Madrid – Bernabéu
 * Madrid – Cibeles 
 
----
-
-# ⚛️ Project 2 — Nuclear Reactor Simulation (Ada)
-
-This project simulates the behavior of a **nuclear power plant control system** using concurrent programming in **Ada**.
-
-The system models three nuclear reactors and ensures that their temperature remains within safe limits.
-
-## ⚙️ Reactor Behaviour
-
-Each reactor:
-
-* Samples temperature every **2 seconds**
-* Sends a message to a **coordinator task** to confirm it is active
-* Opens a **cooling water gate** when temperature reaches critical levels
-
-If the temperature:
-
-* exceeds **1500°C**, the cooling system activates
-* exceeds **1750°C**, an alert message is printed 
-
-Cooling reduces temperature by **50°C per second** while active.
-
----
-
-## 🧵 Concurrency Model
-
-The system includes multiple concurrent tasks:
-
-* Reactor temperature monitoring
-* Cooling actuator control
-* Reactor health monitoring
-* Coordinator task supervising system activity
-
-The implementation ensures proper **synchronization when accessing shared resources**. 
-
----
-
 # 🛠 Technologies Used
 
 * **Java**
 * **JADE Agent Framework**
-* **Ada**
-* **Concurrent Programming**
 
 ---
 
@@ -130,16 +88,6 @@ java jade.Boot
 
 ---
 
-### Ada Reactor Simulation
-
-Compile the Ada program using GNAT:
-
-```bash
-gnatmake main.adb
-./main
-```
-
----
 
 # 📚 Academic Context
 
@@ -154,8 +102,8 @@ These projects were developed as part of the **Advanced Programming course**, fo
 
 # 📫 Contact
 
-**David Lavado**
+**David Lavado González**
 📧 [davidlavgonz@hotmail.com](mailto:davidlavgonz@hotmail.com)
 
-**Rubén Hernández**
+**Rubén Hernández Molina**
 📧 [hm04ruben@gmail.com](mailto:hm04ruben@gmail.com)
